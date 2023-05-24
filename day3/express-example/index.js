@@ -35,5 +35,5 @@ app.get('/health', checkAuth, checkEmail, (req,res) => {
         message: 'Server is UP',
         author: 'admin'
     })
-})
+});
 
